@@ -74,7 +74,7 @@ springdoc:
 custom:
   appName: app4
   prod:
-    domain: qwas.shop
+    domain: app1.501a.xyz
     backUrl: "https://api.${custom.appName}.${custom.prod.domain}"
     frontUrl: "https://www.${custom.appName}.${custom.prod.domain}"
 
@@ -84,9 +84,9 @@ custom:
     frontUrl: "http://${custom.dev.domain}:3000"
 
   site:
-    domain: "${custom.prod.domain}"
-    backUrl: "${custom.prod.backUrl}"
-    frontUrl: "${custom.prod.frontUrl}"
+    domain: "${custom.dev.domain}"
+    backUrl: "${custom.dev.backUrl}"
+    frontUrl: "${custom.dev.frontUrl}"
 
   jwt:
     expire-seconds: "#{60 * 30}"

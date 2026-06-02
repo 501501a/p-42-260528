@@ -1,0 +1,14 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          kakao:
+            clientId: 7cd32a7c4363f86a68e9c370256888ed
+
+custom:
+  prod:
+    db:
+      password: 1234
+  jwt:
+    secret-key: abcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyz1234567890
